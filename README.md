@@ -1,3 +1,5 @@
+Projekt jest stworzony przez zespół 12 na Programowanie Zespołowe na Uniwersytecie Mikołaja Kopernika
+
 Program uruchamia się po włączeniu MainWindow.pyw
 Należy mieć zainstalować:
 PyQT5, Psutils, PyMySQL, Pandas, SQLAlchemy, RSA, Crypto Tools, XLWT, LXML, Psycopg2, OpenPyXL, Xlrd
