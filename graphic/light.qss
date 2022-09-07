@@ -1,0 +1,81 @@
+QToolBox#menuBox::tab {
+
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+}
+
+QWidget#centralwidget { 
+    background: #ffffff;
+
+}
+QFrame#titleBarL, QFrame#blue {
+    background: #5497a7;
+
+}
+QFrame#titleBarL {
+    border-bottom-left-radius: 40px;
+}
+QFrame#blue {
+    border-top-right-radius: 40px;
+}
+QToolBox#menuBox::tab:selected {
+    background: #54e8c1;
+}
+
+QToolBox#menuBox::tab:!selected { 
+    background: #78cad2;
+} 
+QToolBox#menuBox {
+    border-radius: 10px;
+}
+QWidget#dataInputOpt, QWidget#dataOutputOpt, QWidget#advanceOpt, QWidget#reportOpt, QToolBox#menuBox {
+    background: #b7e2de;
+    
+
+}
+
+QPushButton#systemInputBtn, QPushButton#sourceInputBtn, QPushButton#selectionInputBtn, QPushButton#saveOutputBtn, QPushButton#systemOutputBtn, QPushButton#editDataBtn, QPushButton#showRelationBtn, QPushButton#summaryBtn, QPushButton#submitTablesBtn{
+    background: #73bac1;
+    color:white;
+    border-radius: 10px;
+}
+QPushButton#systemInputBtn::disabled, QPushButton#sourceInputBtn::disabled, QPushButton#selectionInputBtn::disabled, QPushButton#saveOutputBtn::disabled, QPushButton#systemOutputBtn::disabled, QPushButton#editDataBtn::disabled, QPushButton#showRelationBtn::disabled, QPushButton#summaryBtn::disabled {
+    background: #999896;
+}
+
+QFrame#concent {
+    background: #a3ceca;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+}
+QTextBrowser#promptBar {
+    background: #819da1;
+    border: none;
+}
+ 
+QPushButton#submitTablesBtn, QPushButton#changeNameBtn, QPushButton#addRelationBtn, QPushButton#deleteRelationBtn, QPushButton#rollbackRelationBtn, QPushButton#tableShow2Btn, QPushButton#deleteNullsBtn, QPushButton#deleteDupliBtn, QPushButton#deleteByIDBtn, QPushButton#loginBtn, QPushButton#saveFileOutputBtn, QPushButton#moveNextBtn, QPushButton#submitAllBtn, QPushButton#tableShowBtn,  QPushButton#loadFileInputBtn, QPushButton#readAutoBtn
+ {
+    background: #20ada6;
+    color:white;
+    border-radius: 10px;
+}
+
+QToolBox#relationBox
+{
+     border-radius: 10px;
+}
+
+QComboBox#tableListEdits
+{
+    background:#7fa4a0;
+}
+
+QToolBox#relationBox::tab:selected {
+    background: #54e8c1;
+}
+
+QToolBox#relationBox::tab:!selected { 
+    background: #78cad2;
+} 

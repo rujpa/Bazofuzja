@@ -1,0 +1,31 @@
+exitBtn - przycisk wyjœcia z ikon¹ X
+
+Przyciski odpowiedzialne za zmiane strony:
+
+	sourceInputBtn - przycisk "Wybierz Ÿród³o danych" dane wejœciowe, zmienia ekran na loginInputScreen/fileInputScreen
+	systemInputBtn - przycisk "Wybierz system danych" dane wejœciowe. zmienia ekran na systemInputScreen
+	selectionInputBtn - przycisk "Wybierz tabele" dane wejœciowe, zmiena  ekran na selectionScreen
+	systemOutputBtn - przycisk "Wybierz system danych" dane wyjœciowe, zmienia ekran na systemOutputScreen
+	saveOutputBtn - przycisk "Wybierz miejsce do zapisu danych" dane wyjœciowe, zmienia ekran na loginOutputScreen/fileOutputScreen
+	summaryBtn - przycisk "Podsumowanie" raport koñcowy, zmienia ekran na reportScreen
+Pozosta³e przyciski:
+	loadFileInput - przycisk "Wybierz plik" z danych wejœciowych z wyboru Ÿród³a
+	loginIBtn - przycisk "Zaloguj siê" z danych wejœciowych z wyboru Ÿród³a
+	loginIBtn - przycisk "Zaloguj siê" z danych wyjœciowych z wyboru miejsca zapisu
+	submitTablesBtn - przycisk "ZatwierdŸ wybór" z danych wejœciowych z wyboru tabel
+	saveFileOutputBtn - przycisk "Zapisz" z danych wyjœciowych z miejsca zapisu
+	submitAllBtn - przycisk "Wykonaj" z raportu
+Dodatkowe elementy:
+	menuBox - toolbox na lewo,
+	rememberMeCheckbox - checkbox w logowaniu wejœciowym "Zapamiêtaj dane logowania"
+	databaseNameO - nazwa bazy danych wyjœciowa
+        databaseAddressO - adres wyjœciowy
+        databaseUserO - u¿ytkownik wyjœciowy
+        databasePasswordO - has³o wyjœciowe
+	databaseNameI - nazwa bazy danych wejœciowa
+        databaseAddressI - adres wejœciowy
+        databaseUserI - u¿ytkownik wejœciowy
+        databasePasswordI - has³o wejœciowe
+	dataSystemsTableI - lista systemów wejœciowa
+	dataSystemsTableO - lista systemów wyjœciowa
+	tableWidget - lista tabel z bazy/pliku
